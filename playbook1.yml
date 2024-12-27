@@ -1,5 +1,5 @@
 - name: Install and set up devops tools
-  hosts: web
+  hosts: 18.204.15.80 
   become: true
   tasks:
   - name: Update the apt repo
